@@ -13,3 +13,13 @@ class Patient(models.Model):
         ('male', 'Homme'),
         ('female', 'Femme')
     ], string='Sexe')
+    blood_grp = fields.Selection([
+        ('A+', 'A+'),
+        ('B+', 'B+'),
+        ('AB+', 'AB+'),
+        ('AB-', 'AB-'),
+        ('O+', 'O+'),
+        ('O-', 'O-')
+    ], string='Blood Group')
+    note = fields.Text(string='Notes')
+    prescription = fields.Text(string='Prescription')

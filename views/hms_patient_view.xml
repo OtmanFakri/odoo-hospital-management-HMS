@@ -16,6 +16,9 @@
                         <field name="phone"/>
                         <field name="address"/>
                         <field name="gender"/>
+                        <field name="blood_grp"/>
+                        <field name="note"/>
+                        <field name="prescription"/>
                     </group>
                 </sheet>
             </form>
@@ -35,6 +38,9 @@
                 <field name="phone"/>
                 <field name="address"/>
                 <field name="gender"/>
+                <field name="blood_grp"/>
+                <field name="note"/>
+                <field name="prescription"/>
             </tree>
         </field>
     </record>
