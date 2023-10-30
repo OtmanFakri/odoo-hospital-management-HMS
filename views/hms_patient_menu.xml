@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <!-- Top-level menu item for HMS -->
+        <menuitem
+                id="menu_hms_root"
+                name="Hospital"
+                sequence="10"/>
+          <menuitem
+                id="menu_hms_operation"
+                name="Operation"
+                parent="menu_hms_root"
+                sequence="10"/>
+          <menuitem
+                id="menu_hms_patient"
+                name="Patient"
+                parent="menu_hms_operation"
+                sequence="10"/>
+
+</odoo>
