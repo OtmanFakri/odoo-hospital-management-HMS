@@ -5,7 +5,7 @@
     'category': 'Healthcare',
     'author': 'Otman Fakri',
     'website': 'Otmanfakri.me',
-    'depends': ['base'],
+    'depends': ['base' , 'mail'],
     'data': [
         'views/hms_patient_view.xml',
         'views/hms_patient_menu.xml',

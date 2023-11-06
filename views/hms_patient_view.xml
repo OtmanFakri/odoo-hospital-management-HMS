@@ -17,10 +17,16 @@
                         <field name="address"/>
                         <field name="gender"/>
                         <field name="blood_grp"/>
+                        <field name="is_child"/>
                         <field name="note"/>
                         <field name="prescription"/>
                     </group>
                 </sheet>
+                <div class="oe_chatter">
+                        <field name="message_follower_ids" options="{'post_refresh': 'recipients'}"/>
+                        <!-- <field name="activity_ids"/> -->
+                        <field name="message_ids"/>
+                    </div>
             </form>
         </field>
     </record>
@@ -34,7 +40,7 @@
         <field name="arch" type="xml">
             <tree string="Patient List">
                 <field name="name"/>
-                <field name="body"/>
+                <field name="age"/>
                 <field name="phone"/>
                 <field name="address"/>
                 <field name="gender"/>
